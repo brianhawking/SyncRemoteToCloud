@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0065AF305295881022E32A81 /* Pods_SyncLocalToCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C84F2EC439E9BA31033323 /* Pods_SyncLocalToCloud.framework */; };
+		353607196599E3F5EC4659C8 /* Pods_SyncLocalToCloud_SyncLocalToCloudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BF9F349DA86FBD521DAB6D /* Pods_SyncLocalToCloud_SyncLocalToCloudUITests.framework */; };
+		E97FED7466A9573F54F6ABCD /* Pods_SyncLocalToCloudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0238575CFCC3F5A16DCAB704 /* Pods_SyncLocalToCloudTests.framework */; };
+		F74D377F27B97FCB00388B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D377E27B97FCB00388B37 /* AppDelegate.swift */; };
+		F74D378127B97FCB00388B37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D378027B97FCB00388B37 /* SceneDelegate.swift */; };
+		F74D378327B97FCB00388B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D378227B97FCB00388B37 /* ViewController.swift */; };
+		F74D378627B97FCB00388B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74D378427B97FCB00388B37 /* Main.storyboard */; };
+		F74D378827B97FCC00388B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74D378727B97FCC00388B37 /* Assets.xcassets */; };
+		F74D378B27B97FCC00388B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74D378927B97FCC00388B37 /* LaunchScreen.storyboard */; };
+		F74D379627B97FCC00388B37 /* SyncLocalToCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D379527B97FCC00388B37 /* SyncLocalToCloudTests.swift */; };
+		F74D37A027B97FCC00388B37 /* SyncLocalToCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D379F27B97FCC00388B37 /* SyncLocalToCloudUITests.swift */; };
+		F74D37A227B97FCC00388B37 /* SyncLocalToCloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37A127B97FCC00388B37 /* SyncLocalToCloudUITestsLaunchTests.swift */; };
+		F74D37B027B980AB00388B37 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37AF27B980AB00388B37 /* AuthManager.swift */; };
+		F74D37B827B980C500388B37 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37B227B980C500388B37 /* Constants.swift */; };
+		F74D37B927B980C500388B37 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37B427B980C500388B37 /* DataManager.swift */; };
+		F74D37BA27B980C500388B37 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37B627B980C500388B37 /* UIView.swift */; };
+		F74D37BB27B980C500388B37 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37B727B980C500388B37 /* UITextField.swift */; };
+		F74D37BF27B980D100388B37 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37BD27B980D100388B37 /* LoginViewController.swift */; };
+		F74D37C027B980D100388B37 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37BE27B980D100388B37 /* RegisterViewController.swift */; };
+		F74D37C227B980E400388B37 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D37C127B980E400388B37 /* HomeViewController.swift */; };
+		F74D37C427B980F100388B37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F74D37C327B980F100388B37 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F74D379227B97FCC00388B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74D377327B97FCB00388B37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74D377A27B97FCB00388B37;
+			remoteInfo = SyncLocalToCloud;
+		};
+		F74D379C27B97FCC00388B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74D377327B97FCB00388B37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74D377A27B97FCB00388B37;
+			remoteInfo = SyncLocalToCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0238575CFCC3F5A16DCAB704 /* Pods_SyncLocalToCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyncLocalToCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB567428671340FFE0B4099 /* Pods-SyncLocalToCloud-SyncLocalToCloudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncLocalToCloud-SyncLocalToCloudUITests.debug.xcconfig"; path = "Target Support Files/Pods-SyncLocalToCloud-SyncLocalToCloudUITests/Pods-SyncLocalToCloud-SyncLocalToCloudUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50C84F2EC439E9BA31033323 /* Pods_SyncLocalToCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyncLocalToCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EE32A504B7832992AD7D72 /* Pods-SyncLocalToCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncLocalToCloud.debug.xcconfig"; path = "Target Support Files/Pods-SyncLocalToCloud/Pods-SyncLocalToCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		A33582FC342E1788AA6EC002 /* Pods-SyncLocalToCloudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncLocalToCloudTests.release.xcconfig"; path = "Target Support Files/Pods-SyncLocalToCloudTests/Pods-SyncLocalToCloudTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1E6351386404ECFC19A7431 /* Pods-SyncLocalToCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncLocalToCloud.release.xcconfig"; path = "Target Support Files/Pods-SyncLocalToCloud/Pods-SyncLocalToCloud.release.xcconfig"; sourceTree = "<group>"; };
+		CD524C870267FE5DB62BD86D /* Pods-SyncLocalToCloudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncLocalToCloudTests.debug.xcconfig"; path = "Target Support Files/Pods-SyncLocalToCloudTests/Pods-SyncLocalToCloudTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBB31FAD5647968A28E6202 /* Pods-SyncLocalToCloud-SyncLocalToCloudUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncLocalToCloud-SyncLocalToCloudUITests.release.xcconfig"; path = "Target Support Files/Pods-SyncLocalToCloud-SyncLocalToCloudUITests/Pods-SyncLocalToCloud-SyncLocalToCloudUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6BF9F349DA86FBD521DAB6D /* Pods_SyncLocalToCloud_SyncLocalToCloudUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyncLocalToCloud_SyncLocalToCloudUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74D377B27B97FCB00388B37 /* SyncLocalToCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncLocalToCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74D377E27B97FCB00388B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F74D378027B97FCB00388B37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F74D378227B97FCB00388B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F74D378527B97FCB00388B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74D378727B97FCC00388B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74D378A27B97FCC00388B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74D378C27B97FCC00388B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74D379127B97FCC00388B37 /* SyncLocalToCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncLocalToCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74D379527B97FCC00388B37 /* SyncLocalToCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncLocalToCloudTests.swift; sourceTree = "<group>"; };
+		F74D379B27B97FCC00388B37 /* SyncLocalToCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncLocalToCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74D379F27B97FCC00388B37 /* SyncLocalToCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncLocalToCloudUITests.swift; sourceTree = "<group>"; };
+		F74D37A127B97FCC00388B37 /* SyncLocalToCloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncLocalToCloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F74D37AF27B980AB00388B37 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		F74D37B227B980C500388B37 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F74D37B427B980C500388B37 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F74D37B627B980C500388B37 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F74D37B727B980C500388B37 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		F74D37BD27B980D100388B37 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F74D37BE27B980D100388B37 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F74D37C127B980E400388B37 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../../Projects/SyncLocalToCloud/SyncLocalToCloud/HomeViewController.swift; sourceTree = "<group>"; };
+		F74D37C327B980F100388B37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Projects/SyncLocalToCloud/SyncLocalToCloud/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74D377827B97FCB00388B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0065AF305295881022E32A81 /* Pods_SyncLocalToCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D378E27B97FCC00388B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97FED7466A9573F54F6ABCD /* Pods_SyncLocalToCloudTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D379827B97FCC00388B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353607196599E3F5EC4659C8 /* Pods_SyncLocalToCloud_SyncLocalToCloudUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31D6D82258B7A054530FDF47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68EE32A504B7832992AD7D72 /* Pods-SyncLocalToCloud.debug.xcconfig */,
+				B1E6351386404ECFC19A7431 /* Pods-SyncLocalToCloud.release.xcconfig */,
+				1FB567428671340FFE0B4099 /* Pods-SyncLocalToCloud-SyncLocalToCloudUITests.debug.xcconfig */,
+				ECBB31FAD5647968A28E6202 /* Pods-SyncLocalToCloud-SyncLocalToCloudUITests.release.xcconfig */,
+				CD524C870267FE5DB62BD86D /* Pods-SyncLocalToCloudTests.debug.xcconfig */,
+				A33582FC342E1788AA6EC002 /* Pods-SyncLocalToCloudTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCA99A723A92DBF1CB0BA89E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50C84F2EC439E9BA31033323 /* Pods_SyncLocalToCloud.framework */,
+				F6BF9F349DA86FBD521DAB6D /* Pods_SyncLocalToCloud_SyncLocalToCloudUITests.framework */,
+				0238575CFCC3F5A16DCAB704 /* Pods_SyncLocalToCloudTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F74D377227B97FCB00388B37 = {
+			isa = PBXGroup;
+			children = (
+				F74D377D27B97FCB00388B37 /* SyncLocalToCloud */,
+				F74D379427B97FCC00388B37 /* SyncLocalToCloudTests */,
+				F74D379E27B97FCC00388B37 /* SyncLocalToCloudUITests */,
+				F74D377C27B97FCB00388B37 /* Products */,
+				31D6D82258B7A054530FDF47 /* Pods */,
+				DCA99A723A92DBF1CB0BA89E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F74D377C27B97FCB00388B37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74D377B27B97FCB00388B37 /* SyncLocalToCloud.app */,
+				F74D379127B97FCC00388B37 /* SyncLocalToCloudTests.xctest */,
+				F74D379B27B97FCC00388B37 /* SyncLocalToCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74D377D27B97FCB00388B37 /* SyncLocalToCloud */ = {
+			isa = PBXGroup;
+			children = (
+				F74D37AE27B980AB00388B37 /* API */,
+				F74D37B127B980C400388B37 /* Utilities */,
+				F74D37BC27B980D100388B37 /* Authentication */,
+				F74D377E27B97FCB00388B37 /* AppDelegate.swift */,
+				F74D37C127B980E400388B37 /* HomeViewController.swift */,
+				F74D378027B97FCB00388B37 /* SceneDelegate.swift */,
+				F74D378227B97FCB00388B37 /* ViewController.swift */,
+				F74D378427B97FCB00388B37 /* Main.storyboard */,
+				F74D378727B97FCC00388B37 /* Assets.xcassets */,
+				F74D37C327B980F100388B37 /* GoogleService-Info.plist */,
+				F74D378927B97FCC00388B37 /* LaunchScreen.storyboard */,
+				F74D378C27B97FCC00388B37 /* Info.plist */,
+			);
+			path = SyncLocalToCloud;
+			sourceTree = "<group>";
+		};
+		F74D379427B97FCC00388B37 /* SyncLocalToCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				F74D379527B97FCC00388B37 /* SyncLocalToCloudTests.swift */,
+			);
+			path = SyncLocalToCloudTests;
+			sourceTree = "<group>";
+		};
+		F74D379E27B97FCC00388B37 /* SyncLocalToCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F74D379F27B97FCC00388B37 /* SyncLocalToCloudUITests.swift */,
+				F74D37A127B97FCC00388B37 /* SyncLocalToCloudUITestsLaunchTests.swift */,
+			);
+			path = SyncLocalToCloudUITests;
+			sourceTree = "<group>";
+		};
+		F74D37AE27B980AB00388B37 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F74D37AF27B980AB00388B37 /* AuthManager.swift */,
+			);
+			name = API;
+			path = ../../../../Projects/SyncLocalToCloud/SyncLocalToCloud/API;
+			sourceTree = "<group>";
+		};
+		F74D37B127B980C400388B37 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F74D37B227B980C500388B37 /* Constants.swift */,
+				F74D37B327B980C500388B37 /* Managers */,
+				F74D37B527B980C500388B37 /* Extensions */,
+			);
+			name = Utilities;
+			path = ../../../../Projects/SyncLocalToCloud/SyncLocalToCloud/Utilities;
+			sourceTree = "<group>";
+		};
+		F74D37B327B980C500388B37 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F74D37B427B980C500388B37 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F74D37B527B980C500388B37 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F74D37B627B980C500388B37 /* UIView.swift */,
+				F74D37B727B980C500388B37 /* UITextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F74D37BC27B980D100388B37 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F74D37BD27B980D100388B37 /* LoginViewController.swift */,
+				F74D37BE27B980D100388B37 /* RegisterViewController.swift */,
+			);
+			name = Authentication;
+			path = ../../../../Projects/SyncLocalToCloud/SyncLocalToCloud/Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74D377A27B97FCB00388B37 /* SyncLocalToCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74D37A527B97FCC00388B37 /* Build configuration list for PBXNativeTarget "SyncLocalToCloud" */;
+			buildPhases = (
+				3EC65AC2A006FD3FDED6DA56 /* [CP] Check Pods Manifest.lock */,
+				F74D377727B97FCB00388B37 /* Sources */,
+				F74D377827B97FCB00388B37 /* Frameworks */,
+				F74D377927B97FCB00388B37 /* Resources */,
+				86CD5301E91E053E850A4077 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncLocalToCloud;
+			productName = SyncLocalToCloud;
+			productReference = F74D377B27B97FCB00388B37 /* SyncLocalToCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F74D379027B97FCC00388B37 /* SyncLocalToCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74D37A827B97FCC00388B37 /* Build configuration list for PBXNativeTarget "SyncLocalToCloudTests" */;
+			buildPhases = (
+				D24161065A19618067409A7B /* [CP] Check Pods Manifest.lock */,
+				F74D378D27B97FCC00388B37 /* Sources */,
+				F74D378E27B97FCC00388B37 /* Frameworks */,
+				F74D378F27B97FCC00388B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74D379327B97FCC00388B37 /* PBXTargetDependency */,
+			);
+			name = SyncLocalToCloudTests;
+			productName = SyncLocalToCloudTests;
+			productReference = F74D379127B97FCC00388B37 /* SyncLocalToCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F74D379A27B97FCC00388B37 /* SyncLocalToCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74D37AB27B97FCC00388B37 /* Build configuration list for PBXNativeTarget "SyncLocalToCloudUITests" */;
+			buildPhases = (
+				E85352FAEA133477DC18B470 /* [CP] Check Pods Manifest.lock */,
+				F74D379727B97FCC00388B37 /* Sources */,
+				F74D379827B97FCC00388B37 /* Frameworks */,
+				F74D379927B97FCC00388B37 /* Resources */,
+				AF5E631B734BE3467A63529F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74D379D27B97FCC00388B37 /* PBXTargetDependency */,
+			);
+			name = SyncLocalToCloudUITests;
+			productName = SyncLocalToCloudUITests;
+			productReference = F74D379B27B97FCC00388B37 /* SyncLocalToCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74D377327B97FCB00388B37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F74D377A27B97FCB00388B37 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F74D379027B97FCC00388B37 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F74D377A27B97FCB00388B37;
+					};
+					F74D379A27B97FCC00388B37 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F74D377A27B97FCB00388B37;
+					};
+				};
+			};
+			buildConfigurationList = F74D377627B97FCB00388B37 /* Build configuration list for PBXProject "SyncLocalToCloud" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F74D377227B97FCB00388B37;
+			productRefGroup = F74D377C27B97FCB00388B37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74D377A27B97FCB00388B37 /* SyncLocalToCloud */,
+				F74D379027B97FCC00388B37 /* SyncLocalToCloudTests */,
+				F74D379A27B97FCC00388B37 /* SyncLocalToCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74D377927B97FCB00388B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74D378B27B97FCC00388B37 /* LaunchScreen.storyboard in Resources */,
+				F74D37C427B980F100388B37 /* GoogleService-Info.plist in Resources */,
+				F74D378827B97FCC00388B37 /* Assets.xcassets in Resources */,
+				F74D378627B97FCB00388B37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D378F27B97FCC00388B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D379927B97FCC00388B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EC65AC2A006FD3FDED6DA56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyncLocalToCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CD5301E91E053E850A4077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyncLocalToCloud/Pods-SyncLocalToCloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyncLocalToCloud/Pods-SyncLocalToCloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SyncLocalToCloud/Pods-SyncLocalToCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5E631B734BE3467A63529F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyncLocalToCloud-SyncLocalToCloudUITests/Pods-SyncLocalToCloud-SyncLocalToCloudUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SyncLocalToCloud-SyncLocalToCloudUITests/Pods-SyncLocalToCloud-SyncLocalToCloudUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SyncLocalToCloud-SyncLocalToCloudUITests/Pods-SyncLocalToCloud-SyncLocalToCloudUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D24161065A19618067409A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyncLocalToCloudTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85352FAEA133477DC18B470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyncLocalToCloud-SyncLocalToCloudUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74D377727B97FCB00388B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74D37BF27B980D100388B37 /* LoginViewController.swift in Sources */,
+				F74D37C027B980D100388B37 /* RegisterViewController.swift in Sources */,
+				F74D37B827B980C500388B37 /* Constants.swift in Sources */,
+				F74D37B927B980C500388B37 /* DataManager.swift in Sources */,
+				F74D378327B97FCB00388B37 /* ViewController.swift in Sources */,
+				F74D37BB27B980C500388B37 /* UITextField.swift in Sources */,
+				F74D37BA27B980C500388B37 /* UIView.swift in Sources */,
+				F74D37C227B980E400388B37 /* HomeViewController.swift in Sources */,
+				F74D37B027B980AB00388B37 /* AuthManager.swift in Sources */,
+				F74D377F27B97FCB00388B37 /* AppDelegate.swift in Sources */,
+				F74D378127B97FCB00388B37 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D378D27B97FCC00388B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74D379627B97FCC00388B37 /* SyncLocalToCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D379727B97FCC00388B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74D37A227B97FCC00388B37 /* SyncLocalToCloudUITestsLaunchTests.swift in Sources */,
+				F74D37A027B97FCC00388B37 /* SyncLocalToCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F74D379327B97FCC00388B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74D377A27B97FCB00388B37 /* SyncLocalToCloud */;
+			targetProxy = F74D379227B97FCC00388B37 /* PBXContainerItemProxy */;
+		};
+		F74D379D27B97FCC00388B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74D377A27B97FCB00388B37 /* SyncLocalToCloud */;
+			targetProxy = F74D379C27B97FCC00388B37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F74D378427B97FCB00388B37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74D378527B97FCB00388B37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F74D378927B97FCC00388B37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74D378A27B97FCC00388B37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74D37A327B97FCC00388B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F74D37A427B97FCC00388B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74D37A627B97FCC00388B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EE32A504B7832992AD7D72 /* Pods-SyncLocalToCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG7HHALT8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyncLocalToCloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianVeitch.SyncLocalToCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74D37A727B97FCC00388B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E6351386404ECFC19A7431 /* Pods-SyncLocalToCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG7HHALT8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyncLocalToCloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianVeitch.SyncLocalToCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F74D37A927B97FCC00388B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD524C870267FE5DB62BD86D /* Pods-SyncLocalToCloudTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG7HHALT8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianVeitch.SyncLocalToCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncLocalToCloud.app/SyncLocalToCloud";
+			};
+			name = Debug;
+		};
+		F74D37AA27B97FCC00388B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33582FC342E1788AA6EC002 /* Pods-SyncLocalToCloudTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG7HHALT8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianVeitch.SyncLocalToCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncLocalToCloud.app/SyncLocalToCloud";
+			};
+			name = Release;
+		};
+		F74D37AC27B97FCC00388B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB567428671340FFE0B4099 /* Pods-SyncLocalToCloud-SyncLocalToCloudUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG7HHALT8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianVeitch.SyncLocalToCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SyncLocalToCloud;
+			};
+			name = Debug;
+		};
+		F74D37AD27B97FCC00388B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBB31FAD5647968A28E6202 /* Pods-SyncLocalToCloud-SyncLocalToCloudUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG7HHALT8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianVeitch.SyncLocalToCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SyncLocalToCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74D377627B97FCB00388B37 /* Build configuration list for PBXProject "SyncLocalToCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74D37A327B97FCC00388B37 /* Debug */,
+				F74D37A427B97FCC00388B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74D37A527B97FCC00388B37 /* Build configuration list for PBXNativeTarget "SyncLocalToCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74D37A627B97FCC00388B37 /* Debug */,
+				F74D37A727B97FCC00388B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74D37A827B97FCC00388B37 /* Build configuration list for PBXNativeTarget "SyncLocalToCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74D37A927B97FCC00388B37 /* Debug */,
+				F74D37AA27B97FCC00388B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74D37AB27B97FCC00388B37 /* Build configuration list for PBXNativeTarget "SyncLocalToCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74D37AC27B97FCC00388B37 /* Debug */,
+				F74D37AD27B97FCC00388B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F74D377327B97FCB00388B37 /* Project object */;
+}
